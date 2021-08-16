@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="assets/css/all.css" />
+		<link rel="stylesheet" href="assets/css/reset.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<script src="assets/js/selectorForGetNameCountry.js" defer></script>
+	</head>
+	<body>
+		<section class="size-form">
+			<form class="form-for-selector">
+				<label for="countries" class="text-label">Choose one place plz:</label>
+				<select class="selector-button" name="countries" id="countries">
+					<option value="chooseOnePlace">Choose one place plz</option>
+				</select>
+			</form>
+		</section>
+
+		<section class="showWeather">
+			<div class="parts-of-info-weather">
+				<div class="left-icon-weather">	
+					<img src="assets/img/icons8-partly-cloudy-day-96.png" alt="Avatar" class="avatar">
+					<img src="assets/img/icons8-rain-96.png" alt="Avatar" class="avatar">
+					<img src="assets/img/icons8-snow-96.png" alt="Avatar" class="avatar">
+				</div>
+				<div class="center-show-info">
+					<p id="showWeatherInfo"></p>
+					<div id="loaderForShow" class="loader"></div>
+					<a class="link-news" target="_blank" id="newsLink" href="https://weather.com/news" style="margin-right: 10px;">newsAboutWeather</a>
+				</div>
+				<div class="right-icon-weather">	
+					<img src="assets/img/icons8-summer-96.png" alt="Avatar" class="avatar">
+					<img src="assets/img/icons8-temperature-1.gif" alt="Avatar" class="avatar">
+					<img src="assets/img/icons8-first-quarter-moon-face-96.png" alt="Avatar" class="avatar">
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
